@@ -97,6 +97,7 @@ def game_over():
 
 
 window = Tk()
+window.title('snake game')
 window.resizable(False,False)
 x = int(window.winfo_screenwidth()/2-GAME_WIDTH/2)
 y = int(window.winfo_screenheight()/2-GAME_HEIGHT/2)
