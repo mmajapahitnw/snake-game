@@ -24,7 +24,7 @@ class Snake:
 
 class Food:
     def __init__(self):
-        x = random.randint(0,(GAME_WIDTH/BLOCK_SIZE)-2)*BLOCK_SIZE
+        x = random.randint(0,(GAME_WIDTH/BLOCK_SIZE)-1)*BLOCK_SIZE
         y = random.randint(0,(GAME_HEIGHT/BLOCK_SIZE)-2)*BLOCK_SIZE
 
         self.coordinates = (x,y)
